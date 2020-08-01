@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+    <group android:checkableBehavior="single"
+     >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/m2"
+            android:title="@string/mhome1"
+
+            />
+        <item
+            android:id="@+id/nav_fitness"
+            android:icon="@drawable/m3"
+            android:title="Workouts" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/m5"
+            android:title="@string/mactivity1" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/m6"
+            android:title="@string/mdiet1" />
+        <item
+            android:id="@+id/nav_meals"
+            android:icon="@drawable/m7"
+            android:title="@string/mmeals1" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/m8"
+            android:title="@string/mprofil1" />
+    </group>
+</menu>

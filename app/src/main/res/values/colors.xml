@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff99aa</color>
+    <color name="colorPrimaryDark">#ff8095</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mc1">#c6538c</color>
+    <color name="mc2">#99FFFFFF</color>
+
+
+    <color name="pink">#F08080</color>
+    <color name="splashBackground">	#D3D3D3</color>
+    <color name="turquoise">#20B2AA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorhello">#ffe6e6</color>
+
+    <color name="contact_name">#D81B60</color>
+    <color name="contact_number">#c6538c</color>
+
+
+</resources>

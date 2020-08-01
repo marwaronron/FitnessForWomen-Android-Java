@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="237dp"
+        android:layout_height="132dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/m_image_drawer"
+        android:src="@drawable/logo4" />
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/CR06fitwoman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="29dp"
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/CR07menu" />
+</LinearLayout>

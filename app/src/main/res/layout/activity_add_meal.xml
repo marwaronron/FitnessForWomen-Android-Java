@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sim.fitwoman.AddMealActivity"
+    android:orientation="vertical"
+  >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="@string/CR70"
+
+        android:textColor="#ff6666"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/CR69"
+        android:textColor="#B20247"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:text="@string/CR68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breakfast"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#c6538c"/>
+    <RadioButton
+        android:text="@string/CR67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lunch"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#c6538c"/>
+    <RadioButton
+        android:text="@string/CR66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dinner"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#c6538c"/>
+    <RadioButton
+        android:text="@string/CR65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#c6538c"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="194dp"
+            android:layout_height="120dp"
+            android:src="@drawable/meal"
+            android:contentDescription="@string/CR64" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/meal2"
+            android:contentDescription="@string/CR63" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#8c8c8c"
+            android:text="@string/CR61"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/CR60"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

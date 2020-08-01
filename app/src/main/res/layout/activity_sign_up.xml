@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/container3"
+    android:orientation="vertical"
+    tools:context="com.sim.fitwoman.Sign_up"
+
+    android:background="@drawable/gradient"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+        <ImageView android:src="@drawable/logo4"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/todo22" />
+
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="8dp"
+
+            android:drawableLeft="@drawable/mname2"
+            android:hint="@string/name22"
+
+            android:inputType="text"
+
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#ffffffff"
+
+
+            android:textColorHint="#ffffffff"
+            android:drawableStart="@drawable/mname2" />
+
+
+        <AutoCompleteTextView android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:maxLines="1"
+            android:singleLine="true"
+
+            android:drawableLeft="@drawable/mmail"
+            android:textColorHint="#ffffffff"
+            android:textColor="#ffffffff"
+            android:drawableStart="@drawable/mmail" />
+
+        <EditText android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:maxLines="1"
+            android:singleLine="true"
+
+            android:drawableLeft="@drawable/mlock"
+            android:textColorHint="#ffffffff"
+            android:textColor="#ffffffff"
+            android:drawableStart="@drawable/mlock" />
+
+    <Button
+        android:id="@+id/email_sign_up_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/mc1"
+        android:gravity="center"
+        android:text="@string/create_account22"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
